@@ -63,10 +63,10 @@ The program reads poems and can query them using Prolog. Queries are defined in 
 
 ## Debug Mode | Modo Debug
 
-Use the `--debug` flag to enter interactive mode where you can create and test your own Prolog queries in real time:
+Use the `--test` flag to enter interactive mode where you can create and test your own Prolog queries in real time:
 
 ```bash
-python main.py --debug
+python main.py --test
 ```
 
 This allows you to experiment with predicates and test theories about the poems without modifying the `queries.pl` file.
